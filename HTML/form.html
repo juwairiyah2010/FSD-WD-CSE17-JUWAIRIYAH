@@ -6,11 +6,11 @@
     <title>Form</title>
 </head>
 <body>
-    <h1 style="text-align: center;">HTML FORMS</h1>
+    <h1 style="text-align: center;">Application Form</h1>
     <h2>Fill your details as required in the given fields:</h2>
-    <table border="1">
+    <table border="1" width="600" height="600">
     <tr>
-     <td><form action=" " method="post"></td>
+     <td><form action="#" method="post"></td>
     </tr>
     <tr>
         <td>add your full name</td>
@@ -26,13 +26,23 @@
     </tr>
     <tr>
         <td>select your gender</td>
-        <td><input type="radio" name="gender" placeholder="male" >Male</td>
-        <td><input type="radio" name="gender" placeholder="female"> Female</td>
-        <td><input type="radio" name="gender" placeholder="other">Other</td>
+        <td colspan="3"><input type="radio" name="gender" placeholder="male" >Male</td>
+        <td colspan="3"><input type="radio" name="gender" placeholder="female"> Female</td>
+        <td colspan="3"><input type="radio" name="gender" placeholder="other">Other</td>
     </tr>
     <tr>
         <td>make a password</td>
         <td><input type="password" name="password" placeholder="password"></td>
+    </tr>
+    <tr>
+       <td>which position you want to apply for </td>
+       <td>
+        <select name="position"
+        <option value="">selectan option</option>
+        <option>frontend developer</option>
+        <option>backend developer</option>
+        <option>fuk stack developer</option>
+       </td>
     </tr>
     <tr>
         <td><input type="submit"</td>
