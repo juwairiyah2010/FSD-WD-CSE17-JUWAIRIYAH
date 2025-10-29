@@ -1,0 +1,50 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            text-align: center;
+            background-image: url("fantasy-anime-style-scene.jpg");
+        }
+        h1 {
+            text-decoration: underline;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 60%;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+            vertical-align: middle;
+        }
+        td:first-child {
+            font-weight: bold;
+            width: 25%;
+        }
+        .profile-pic {
+            text-align: center;
+        }
+        img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: block;
+            margin: 10px auto;
+        }
+        .links {
+            text-align: center;
+        }
+        .links a {
+            color: blue;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        a:hover {
+            color: red;
+            transition: color 0.3s ease;
+        }
+        
